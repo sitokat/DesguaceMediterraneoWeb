@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('/assets/fonts/TitilliumWeb-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/open-sans-v40-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('/assets/fonts/roboto-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Define clases para las fuentes */
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto Regular', sans-serif;
+}
