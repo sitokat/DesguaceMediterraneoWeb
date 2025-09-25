@@ -45,9 +45,9 @@ async function obtenerHeroConfig() {
 
     if (response.ok) {
       const data = await response.json();
-      heroTitle.value = data.titulo || 'Abogados de Confianza';
-      heroText.value = data.texto || 'Despacho multidisciplinar especializado en asuntos de Familia, Derecho al Honor, Penal, Extranjería y Ley de la 2ª oportunidad. Solucionar tu problema es nuestro trabajo.';
-      heroImage.value = data.foto || '../img/hero.jpg';
+      heroTitle.value = data.titulo || '';
+      heroText.value = data.texto || '';
+      heroImage.value = data.foto || '';
     } else {
       console.error('Error al obtener la configuración del Hero.');
     }
