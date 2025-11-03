@@ -59,7 +59,7 @@
                 </svg>
                 <div>
                   <div class="text-xs uppercase tracking-wide">Repuestos nave</div>
-                  <div class="font-semibold">607 348 680</div>
+                  <div class="font-semibold">607 348 688</div>
                 </div>
               </a>
 
