@@ -10,6 +10,7 @@
     <UltimosInmuebles v-if="inmueblesActive"/>
     <!-- Mostrar las características si están activadas -->
     <Features v-if="featuresActive" />
+    <BarraEnConstruccion />
   </div>
 </template>
 
