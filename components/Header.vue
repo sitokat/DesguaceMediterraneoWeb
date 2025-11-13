@@ -3,7 +3,7 @@
     <div class="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4">
       <NuxtLink to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img :src="logoUrl" class="mr-3 h-8" alt="Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-besoris">{{ nombre }}</span>
+        <span class="self-center text-md lg:text-2xl font-semibold whitespace-nowrap dark:text-white font-besoris">{{ nombre }}</span>
       </NuxtLink>
       <div class="flex md:order-0 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <button
